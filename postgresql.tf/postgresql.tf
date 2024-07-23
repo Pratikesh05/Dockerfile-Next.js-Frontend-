@@ -34,7 +34,7 @@ resource "kubernetes_deployment" "postgres" {
 
           env {
             name  = "POSTGRES_PASSWORD"
-            value = "12345"
+            value = "password"
           }
 
           ports {
